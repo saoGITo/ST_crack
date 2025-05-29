@@ -13,3 +13,5 @@ cp sublime_text_patched "/Applications/Sublime Text.app/Contents/MacOS/sublime_t
 sudo xattr -rc /Applications/Sublime\ Text.app
 
 codesign -s - --force --deep "/Applications/Sublime Text.app/Contents/MacOS/sublime_text"
+
+entering anything to the license
