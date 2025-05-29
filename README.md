@@ -1,10 +1,10 @@
 # ST_crack
 Cracked Sublime Text for ARM64 architecture (Apple Silicon)
 
-Usage: python3 patcher.py <input_file> [output_file]
+Usage: python3 patch.py <input_file> [output_file]
 
 Example:
-python3 patcher.py sublime_text
+python3 patch.py sublime_text
 
 then
 
