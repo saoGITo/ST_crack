@@ -3,10 +3,11 @@ import os
 
 # ARM64 patch patterns (original -> patched)
 patches = {
-    bytes.fromhex("0E160A94"): bytes.fromhex("1F2003D5"),  # BL <func> -> NOP
-    bytes.fromhex("60DC0894"): bytes.fromhex("1F2003D5"),  # BL <func> -> NOP
-    bytes.fromhex("F44FBEA9FD7B01A9FD4300915B9D0394"): bytes.fromhex("200080D2C0035FD61F2003D51F2003D5"),
+    bytes.fromhex("628F0294"): bytes.fromhex("1F2003D5"),  # BL <func> -> NOP
+    bytes.fromhex("5D8F0294"): bytes.fromhex("1F2003D5"),  # BL <func> -> NOP
+    bytes.fromhex("F657BDA9F44F01A9FD7B02A9FD8300918F910A94"): bytes.fromhex("200080d2c0035fd61f2003d51f2003d51f2003d5"),
     bytes.fromhex("E6031EAAC7B80A94"): bytes.fromhex("000080D2C0035FD6"),
+     
 }
 
 def patch_binary(input_file, output_file=None):
