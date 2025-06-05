@@ -7,6 +7,7 @@ patches = {
     bytes.fromhex("5D8F0294"): bytes.fromhex("1F2003D5"),  # BL <func> -> NOP
     bytes.fromhex("F657BDA9F44F01A9FD7B02A9FD8300918F910A94"): bytes.fromhex("200080D2C0035FD61F2003D51F2003D51F2003D5"),
     bytes.fromhex("E6031EAAC7B80A94"): bytes.fromhex("000080D2C0035FD6"),
+    bytes.fromhex("F657BDA9F44F01A9FD7B02A9FD830091FF430CD1"): bytes.fromhex("C0035FD61F2003D51F2003D51F2003D51F2003D5"),
      
 }
 
